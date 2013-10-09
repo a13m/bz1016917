@@ -1,4 +1,3 @@
-The OpenShift `php` cartridge documentation can be found at:
+To reproduce https://bugzilla.redhat.com/show_bug.cgi?id=1016917 , run:
 
-https://github.com/openshift/origin-server/tree/master/cartridges/openshift-origin-cartridge-php/README.md
-
+rhc app create bz1016917 php-5.3 --from-code https://github.com/a13m/bz1016917
